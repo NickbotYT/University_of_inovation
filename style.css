@@ -1057,6 +1057,44 @@ footer a:hover {
   font-size: 13px;
 }
 
+#admission h2 {
+  font-size: 30px;
+  color: #3f4563;
+  margin: 10px;
+}
+
+#admission .btn {
+  border-radius: 12px;
+  background-color: #818ea0; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+}
+
+#Fees h2 {
+  font-size: 30px;
+  color: #3f4563;
+  margin: 10px;
+}
+
+#Fees .btn {
+  border-radius: 12px;
+  background-color: #818ea0; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+}
+
 /* Start Media Query */
 
 @media (max-width: 799px) {
