@@ -6,23 +6,39 @@
     <link rel="stylesheet" href="sign_in.css" />
   </head>
   <body>
+    <section id="header">
+      <a href="#"><img src="img/logo.png" class="logo" alt="" /></a>
+
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="merch.html">Merch</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <a href="#" id="close"><i class="far fa-times"></i></a>
+          <div class="dropdown">
+            <button class="dropbtn">Academic</button>
+            <div class="dropdown-content">
+              <a href="ug_academic.html">Under-graduate</a>
+              <a href="pg_academic.html">Graduate</a>
+              <a href="phd_academic.html">Doctorate/PHd</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Admissions</button>
+            <div class="dropdown-content">
+              <a href="ug_admission.html">Under-graduate</a>
+              <a href="pg_admission.html">Graduate</a>
+              <a href="phd_admission.html">Doctorate/PHd</a>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </section>
     <div class="full-page">
-      <!-- <div class="navbar">
-        <div>
-          <a href="website.html">Seek Coding</a>
-        </div>
-      </div> -->
       <div id="login-form" class="login-page">
         <div class="form-box">
-          <!-- <div class="button-box">
-            <div id="btn"></div>
-            <button type="button" onclick="login()" class="toggle-btn">
-              Log In
-            </button>
-            <button type="button" onclick="register()" class="toggle-btn">
-              Register
-            </button>
-          </div> -->
           <form id="login" class="input-group-login">
             <input
               type="text"
